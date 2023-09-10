@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 1rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1 span {
+  color: #d90429;
+}
+
+body {
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+  background: url(img/blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+form {
+  width: 600px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 #d90429, 0 4px 8px 0 #020102;
+  border-radius: 2rem;
+  size: auto;
+  align-items: center;
+  height: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box1 {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 15px 0;
+  background-color: #cfcfcf;
+}
+
+.div1 {
+  display: inline-block;
+  width: 183px;
+}
+
+.box2 {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin: 10px 0 15px 0;
+  background-color: #cfcfcf;
+}
+
+.btn {
+  position: relative;
+  padding: 10px 22px;
+  background: #d90429;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 1.1rem;
+  margin-left: 100px;
+}
+
+.btn:hover {
+  background: #008311;
+}
+
+.btn1 {
+  position: relative;
+  padding: 10px 22px;
+  background: #d90429;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 1.1rem;
+  margin-left: 120px;
+}
+
+.btn1:hover {
+  background: #ff2222;
+}
+
+.pilihan {
+  width: 39%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 15px 0;
+  background-color: #cfcfcf;
+}
+
+.file {
+  width: 39%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 15px 0;
+  background-color: #cfcfcf;
+}

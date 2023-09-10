@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment CarPoint</title>
+    <link class="icon" rel="icon" href="img/Car Point-modified.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body>
+    <form action="action">
+      <h1>Car<span>Point</span></h1>
+      <label for="name">Nama Lengkap</label><br />
+      <input class="box1" type="text" name="name" id="name" placeholder="Enter Name" /><br />
+      <label for="email">Email</label><br />
+      <input class="box1" type="email" name="email" id="email" placeholder="Enter Email" /><br />
+      <label for="cardnum">Card Number</label><br />
+      <input class="box1" type="number" name="number" id="number" placeholder="1234 1234 1234 1234" /><br />
+      <div class="div div1">
+        <label for="cardex">Card Expiry Month</label><br />
+        <input class="box2" type="month" name="month" id="month" placeholder="MM" /><br />
+      </div>
+      <div class="div div1">
+        <label for="cardye">Card Expiry Year</label><br />
+        <input class="box2" type="year" name="year" id="year" placeholder="yyyy" /><br />
+      </div>
+      <div class="div div1">
+        <label for="cardCVC">Card CVC</label><br />
+        <input class="box2" type="cvc" name="cvc" id="cvc" placeholder="cvc" /><br />
+      </div>
+      <br />
+      <div>
+        <label for="name" class="form-label">Waktu Sewa <br /></label>
+        <select name="pilihan" class="pilihan">
+          <option value="5 Hari">5 Hari</option>
+          <option value="10 Hari">10 Hari</option>
+          <option value="15 Hari">15 Hari</option>
+          <option value="20 Hari">20 Hari</option>
+        </select>
+      </div>
+      <label for="file">Bukti Pembayaran</label><br />
+      <input class="file" type="file" name="file" id="file" />
+      <br /><br />
+      <a href="https://api.whatsapp.com/send/?phone=%2B6285776454076&text&type=phone_number&app_absent=0" class="btn">Chat WA</a>
+      <a href="index.html" class="btn1">Kembali</a>
+    </form>
+  </body>
+</html>
