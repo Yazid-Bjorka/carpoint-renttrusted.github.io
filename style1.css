@@ -74,7 +74,7 @@ h1 {
   color: #fff;
   font-weight: 800;
   border-radius: 1.1rem;
-  margin-left: 100px;
+  margin-left: auto;
 }
 
 .btn:hover {
@@ -88,7 +88,7 @@ h1 {
   color: #fff;
   font-weight: 800;
   border-radius: 1.1rem;
-  margin-left: 120px;
+  margin-left: 20px;
 }
 
 .btn1:hover {
@@ -113,4 +113,14 @@ h1 {
   box-sizing: border-box;
   margin: 10px 0 15px 0;
   background-color: #cfcfcf;
+}
+
+@media (max-width: 638px) {
+  form {
+    text-align: left;
+  }
+
+  .box1 {
+    margin-right: 0px;
+  }
 }
